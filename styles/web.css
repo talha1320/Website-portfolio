@@ -124,3 +124,27 @@ ul{ display: flex;
     color: #474747;
     font-weight: bold;
 }
+
+/* skill styles */
+.skill-items{
+    text-align: center;
+     margin-top: 130px;
+}
+.skill-container{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0 230px; */
+    gap: 24px;
+}
+.skill-description{
+    font-size: 16x;
+    color: #757575;
+    margin-top: 20px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0 6px 50px 0px rgba(0, 0, 0, 0.30);
+    margin-top: 50px;
+    border-radius: 10px;
+    
+}
