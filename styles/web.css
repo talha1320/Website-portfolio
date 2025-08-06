@@ -43,10 +43,15 @@
     color: #757575;
     /* margin: 20px 0; */
 }
-.secondary-bg{
+.secondary-bg-1{
     background-color: #fdd6b9;
+    
 }
 
+.secondary-bg-2{
+    background-color: #fdd6b9;
+    margin: 0 230px;
+}
 /* nav css */
 nav {display: flex;
     align-items: center;
@@ -128,12 +133,14 @@ ul{ display: flex;
 /* skill styles */
 .skill-items{
     text-align: center;
-     margin-top: 130px;
+    margin-top: 130px;
+    margin: 0 230px;
+    
 }
 .skill-container{
     display: flex;
     justify-content: space-between;
-    /* margin: 0 230px; */
+    margin: 0 230px;
     gap: 24px;
 }
 .skill-description{
@@ -146,5 +153,52 @@ ul{ display: flex;
     box-shadow: 0 6px 50px 0px rgba(0, 0, 0, 0.30);
     margin-top: 50px;
     border-radius: 10px;
-    
+}
+
+/* resume styles */
+.rr{
+    text-align: center;
+    margin-top: 130px;
+}
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 230px;
+    gap: 24px;
+}
+
+.resume-column{ font-size:larger ;
+}
+.experience-title{
+margin-top: 50px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.experience-sub-title{
+    font-weight: 600;
+    color: #474747;
+
+}
+.experience-description{
+    font-size: 16px;
+    color: #757575;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.resume-button{
+    background-color: #FD6E0A;
+    font-weight: 700;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    margin-top: 50px;
+   
+}
+.text-center{
+    text-align: center;
 }
