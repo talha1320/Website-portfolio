@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/web.css">
+    <script src="https://kit.fontawesome.com/ffa2b02ce9.js" crossorigin="anonymous"></script>
+</head>
 <body class="open-sans-normal">
     <header class="header secondary-bg-1">
         <nav>
@@ -23,8 +25,8 @@
                 <h3 class="banner-gretting dark-2">Hi, I am</h4>
                 <h1 class="banner-title">Mary Hardy</h1>
                 <p class="banner-description dark-3" >Shot what able cold new see hold.Friendly as an betrayed  formerly he. Morning because as to society behaved moments.</p>
-                <button class="button-primary">Download CV</button>
-                <button class="button-primary">Contact</button>
+                <button class="button-primary"><i class="fa-solid fa-download"></i>  Download CV</button>
+                <button class="button-primary"><i class="fa-solid fa-phone"></i>  Contact</button>
 
             </div>
             <div>
@@ -159,14 +161,38 @@
                 </div>
             </div>
             <div class=" text-center">
-                <button class="button-primary  resume-button ">Download CV</button>
+                <button class="button-primary  resume-button "><i class="fa-solid fa-download"></i>  Download CV</button>
             </div>
 
            
         </section>
 
     </main>
-    <footer>
+    <footer class="secondary-bg-1 footer">
+        <div class="footer-column about-column">
+            <h3 class="section-title footer-title">Let's connect</h3>
+            <div class="footer-content">
+                <p>
+                    Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.
+                </p>
+                <div class="footer-social">
+                    <a href=""><img src="images/icons/facebook.png" alt=""></a>
+                    <a href=""><img src="images/icons/insta.png" alt=""></a>
+                    <a href=""><img src="images/icons/twitter.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-column form-column">
+            <h3 class="section-title footer-title">Let’s Message me</h3>
+            <form class="footer-form">
+                <div class="form-inputs">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea cols="100" rows="10" placeholder="Your Message" required></textarea>
+                </div>
+                <button class="button-primary">Submit</button>
+            </form>
+        </div>
 
     </footer>
 </body>
